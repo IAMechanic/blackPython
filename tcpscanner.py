@@ -45,6 +45,10 @@ def portScan(tgthost,tgtports):
         
 
 def main():
+    
+    print('*'*70)
+    print("-----------------------------Weclome !!!--------------------------")
+    print('*'*70)
     parse=optparse.OptionParser('usage %porg -H'+'<target host> -p <target port>')
     parse.add_option('-H',dest='tgthost',type='string',help='specify target host')
     parse.add_option('-P',dest='tgtport',type='int',help='specify target port')
